@@ -14,4 +14,4 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve("./public/index.html"));
 });
 
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server started at http://localhost:${PORT}/`));
